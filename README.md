@@ -29,13 +29,12 @@ The dataset used is the **Algerian Forest Fires dataset**, containing informatio
    Install the dependencies using pip:
 
    ```bash
-   Copy code
    pip install -r requirements.txt
 
 3. **Set Up Environment Variables**
 If using external APIs or storing sensitive data, create a .env file with required API keys or configurations.
 
-Usage
+## Usage
 1. Run the Jupyter Notebook
 Open and run the Jupyter notebook forest_fire_prediction.ipynb for data exploration, model training, and evaluation.
 
@@ -56,7 +55,7 @@ Wind Speed: Speed of wind (km/h)
 Rainfall: Rainfall (mm)
 The model will predict the likelihood of fire occurrence based on these inputs.
 
-##Model
+## Model
 The project employs several machine learning algorithms to achieve optimal predictions. Models used include:
 
 Logistic Regression
@@ -64,8 +63,8 @@ Decision Tree Classifier
 Random Forest Classifier
 Each model’s performance is evaluated based on metrics like accuracy, precision, and recall.
 
-##Results
+## Results
 Best Model: Random Forest Classifier achieved the highest accuracy with effective predictions.
 Feature Importance: Temperature and humidity were identified as the most important features influencing fire incidents.
-##Contributing
+## Contributing
 If you’d like to contribute, please fork the repository and create a pull request with a brief description of the changes.
